@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h2{
+        @apply text-2xl font-bold tracking-widest mb-4;
+    }
+    h3{
+        @apply text-font-green my-3 text-xl font-bold;
+    }
+    p{
+        @apply text-justify text-sm;
+    }
+}
+
+@layer components {
+    .section-nav{
+        @apply text-font-green text-base uppercase font-bold ml-4;
+    }
+}
