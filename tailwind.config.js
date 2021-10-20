@@ -32,7 +32,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  // できない
+
   plugins: [
     plugin(function({ addBase, config }){
       addBase({
